@@ -1,0 +1,9 @@
+#!/bin/sh
+export ETH32_DIR="/home/rabbit/work/eth32nix_salvation_final"
+export ETH32_ET="/home/rabbit/games/et2.60"
+export LD_PRELOAD="$ETH32_DIR/libeth32nix.so"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+cd $ETH32_ET
+
+exec ./et.x86 "$@"
+unset LD_PRELOAD

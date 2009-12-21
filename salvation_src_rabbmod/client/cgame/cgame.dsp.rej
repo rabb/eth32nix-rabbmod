@@ -1,0 +1,91 @@
+***************
+*** 43,49 ****
+  # PROP Ignore_Export_Lib 0
+  # PROP Target_Dir ""
+  # ADD BASE CPP /nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /YX /FD /c
+- # ADD CPP /nologo /G5 /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "CGAMEDLL" /YX /FD /c
+  # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD BASE RSC /l 0x409 /d "NDEBUG"
+--- 43,49 ----
+  # PROP Ignore_Export_Lib 0
+  # PROP Target_Dir ""
+  # ADD BASE CPP /nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /YX /FD /c
++ # ADD CPP /nologo /G5 /MT /W4 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "CGAMEDLL" /D "USE_MDXFILE" /YX /FD /c
+  # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD BASE RSC /l 0x409 /d "NDEBUG"
+***************
+*** 70,76 ****
+  # PROP Ignore_Export_Lib 0
+  # PROP Target_Dir ""
+  # ADD BASE CPP /nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /YX /FD /c
+- # ADD CPP /nologo /G5 /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "CGAMEDLL" /FR /YX /FD /c
+  # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD BASE RSC /l 0x409 /d "_DEBUG"
+--- 70,76 ----
+  # PROP Ignore_Export_Lib 0
+  # PROP Target_Dir ""
+  # ADD BASE CPP /nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /YX /FD /c
++ # ADD CPP /nologo /G5 /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "CGAMEDLL" /D "USE_MDXFILE" /FR /YX /FD /c
+  # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+  # ADD BASE RSC /l 0x409 /d "_DEBUG"
+***************
+*** 82,91 ****
+  # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /debug /machine:I386 /pdbtype:sept
+  # ADD LINK32 /nologo /base:"0x30000000" /subsystem:windows /dll /map /debug /machine:I386 /out:"..\Debug/cgame_mp_x86.dll"
+  # SUBTRACT LINK32 /pdb:none
+- # Begin Special Build Tool
+- SOURCE="$(InputPath)"
+- PostBuild_Cmds=copy "..\Debug\cgame_mp_x86.dll" "$(WOLFDIR)\etmain\"
+- # End Special Build Tool
+  
+  !ENDIF 
+  
+--- 82,87 ----
+  # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /debug /machine:I386 /pdbtype:sept
+  # ADD LINK32 /nologo /base:"0x30000000" /subsystem:windows /dll /map /debug /machine:I386 /out:"..\Debug/cgame_mp_x86.dll"
+  # SUBTRACT LINK32 /pdb:none
+  
+  !ENDIF 
+  
+***************
+*** 199,204 ****
+  # End Source File
+  # Begin Source File
+  
+  SOURCE=.\cg_info.c
+  # End Source File
+  # Begin Source File
+--- 195,204 ----
+  # End Source File
+  # Begin Source File
+  
++ SOURCE=.\cg_hud.c
++ # End Source File
++ # Begin Source File
++ 
+  SOURCE=.\cg_info.c
+  # End Source File
+  # Begin Source File
+***************
+*** 339,344 ****
+  # End Source File
+  # Begin Source File
+  
+  SOURCE=..\ui\keycodes.h
+  # End Source File
+  # Begin Source File
+--- 339,348 ----
+  # End Source File
+  # Begin Source File
+  
++ SOURCE=.\etpubc.h
++ # End Source File
++ # Begin Source File
++ 
+  SOURCE=..\ui\keycodes.h
+  # End Source File
+  # Begin Source File

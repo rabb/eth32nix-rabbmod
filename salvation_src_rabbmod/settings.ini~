@@ -1,0 +1,1240 @@
+[Main Settings]
+standlowX=0.000
+standmedX=0.000
+standfarX=0.000
+standY=-0.200
+standlowZ=3.825
+standmedZ=3.053
+standfarZ=2.281
+runlowX=0.000
+runmedX=0.000
+runfarX=0.000
+runY=0.000
+runlowZ=4.877
+runmedZ=3.228
+runfarZ=2.281
+crouchlowX=0.000
+crouchmedX=0.000
+crouchfarX=0.000
+crouchY=-0.300
+crouchlowZ=4.175
+crouchmedZ=2.947
+crouchfarZ=2.351
+crawllowX=-1.684
+crawlmedX=-0.561
+crawlfarX=0.421
+crawlY=-0.632
+crawllowZ=4.667
+crawlmedZ=5.298
+crawlfarZ=2.877
+pronelowX=0.450
+pronemedX=0.450
+pronefarX=0.450
+proneY=-0.450
+pronelowZ=6.800
+pronemedZ=6.800
+pronefarZ=6.800
+skeletonhead=true
+pighead=false
+grinchhead=false
+aimmode=1
+aimtype=4
+autofire=true
+atkvalid=false
+locktarget=false
+fov=360.000
+aimsort=2
+headbody=4
+hitboxtype=5
+headtracetype=2
+bodytracetype=4
+dynamichitbox=0.841
+animcor=2.466
+autocrouch=true
+grenadebot=false
+riflebot=false
+grenblockfire=true
+valgrentrajectory=true
+valrifletrajectory=true
+grenadetracer=true
+rifletracer=true
+grensenslock=false
+riflenadeZ=12.500
+grenadeZ=-50.000
+grenfiredelay=125
+grenadeautofire=true
+rifleautofire=false
+grenpredict=4
+radiusdamage_enable=true
+radiusdamage=100.000
+grenautotarg=true
+multibounce=true
+humanMode=1
+human1_speed=0.043
+human2_humanValue=0.200
+human2_aimX=2.847
+human2_aimY=2.431
+human2_divMin=6.736
+human2_divMax=5.208
+aimprotect=1
+lockMouse=true
+randomaim=false
+shakefreq=8219
+randfactx=204
+randfacty=240
+randfactz=383
+headsize=8.491
+bodysize=28.847
+autodelay=true
+delayclose=5
+delaymed=5
+delayfar=5
+vecstand=-0.592 0.871 4.495
+vecrun=-0.592 0.871 3.589
+veccrouch=-0.592 0.871 6.167
+veccrawl=0.000 0.000 5.500
+vecprone=0.450 0.240 8.258
+preshoot=true
+preaim=true
+preshoottime=224.737
+preaimtime=292.632
+predself_type=1
+predself=0.001
+autopredbots=true
+pred=-0.008
+predbot=-0.047
+orighud=false
+hackvisuals=true
+wallhack=true
+blackout=false
+weapzoom=false
+scopedspeed=1.000
+smoketransp=33
+radarrange=3000.000
+bannerscale=1.000
+gui_banner=true
+bannerfmt=^1[N] ^0- ^7Name^0: ^1[n] ^0- ^7Ping^p: ^1[P] &&^7Kills^p: ^1[k] ^0- ^7Deaths^p: ^1[d] ^0- ^7Spree^p: ^1[S] &&^7Headshots^p: ^q[/] ^0- ^7Accuracy6p: ^q[\]^p% ^0- ^7Hs^p/^7Kill^p: ^1[<]
+removefoliage=true
+warningmsgs=true
+dmgindicator=0
+dmgarrowsize=52.806
+removeparticles=true
+headhitbox=true
+headaxes=false
+bodyhitbox=true
+debugpoints=false
+bulletrail=false
+railwallhack=true
+headhbtime=40
+bodyhbtime=40
+espname=true
+grenadedlight=true
+mortardlight=true
+disguised=true
+mortartrace=true
+artymarkers=true
+classesp=1
+oldclassicons=false
+classespsize=14.000
+classespopacity=0.800
+itemesp=false
+itemespsize=14.000
+itemespopacity=0.800
+boxesp=false
+boxespborder=1
+boxespopacity=0.800
+teamshader1=0
+teamshader1wallhack=true
+teamshader2=0
+teamshader2wallhack=false
+enemyshader1=0
+enemyshader1wallhack=true
+enemyshader2=0
+enemyshader2wallhack=false
+weaponshader1=0
+weaponshader1wallhack=true
+weaponshader2=0
+weaponshader2wallhack=true
+itemshader1=0
+itemshader1wallhack=true
+itemshader2=0
+itemshader2wallhack=true
+colorteam=104 255 0
+colorteamout=0 0 255
+colorteamhid=0 100 0
+colorteamweap=255 255 0
+teamweapoutline=0 255 255
+colorenemy=255 0 154
+colorenemyout=255 0 255
+colorenemyhid=100 0 0
+colorenemyweap=255 75 0
+enemyweapoutline=255 255 0
+colorinvuln=255 255 0
+colorhealth=199 0 0
+colorhealthoutline=230 0 255
+colorammo=0 0 255
+colorammooutline=0 203 206
+colorworldweapons=0 0 255
+colorworldweaponsoutline=0 0 255
+colorheadhb=0.000 1.000 0.000
+colorbodyhb=0.000 1.000 0.000
+colorbulletrail=1.000 0.000 0.000
+colorxaxis=1.000 0.000 0.000
+coloryaxis=0.000 1.000 0.000
+colorzaxis=0.000 0.000 1.000
+classteam=0.000 1.000 0.000
+classenemy=1.000 0.000 0.000
+xhaircolor=0.000 1.000 0.000
+missilecolor=1.000 1.000 1.000
+gui_titlecolor=1.000 1.000 1.000 1.000
+gui_textcolor1=1.000 1.000 1.000 1.000
+gui_textcolor2=1.000 1.000 1.000 1.000
+gui_healthhi=1.000 0.000 0.000 1.000
+gui_healthmd=1.000 1.000 0.000 1.000
+gui_healthlo=1.000 0.000 0.000 1.000
+gui_stamina=1.000 1.000 1.000 1.000
+gui_charge=1.000 1.000 1.000 1.000
+gui_overheat=1.000 0.000 0.000 1.000
+gui_reload=1.000 1.000 0.000 1.000
+reaperhead=false
+hitlerhead=false
+hitlerbody=false
+xhairtype=4
+xhairsize=48.469
+xhairopacity=1.000
+speclist=true
+trans_console=false
+respawntimers=true
+autotapout=true
+pbscreenshot=1
+origviewvalues=false
+interpolatedps=true
+damagefeedback=false
+autovote=true
+autocomplaint=true
+antitk=false
+nudgehack=true
+killsounds=true
+randomsounds=false
+hitsounds=1
+puresounds=true
+hqsounds=true
+mkillresettime=3000.000
+namesteal=false
+namesteal_delay=673
+namesteal_grace=0
+namesteal_mode=2
+namestealexact=true
+killspam=false
+multikillspam=false
+deathspam=false
+suicidespam=false
+selfkillspam=false
+pmkillspam=false
+killspamtype=0
+spoofOs=true
+pk3name=eth32sal1.pk3
+etproGuid=ACB95970CCD799AC02480490126224C47BB2F764
+jaymac=68-27-f8-28
+cvarprefix=eth_set
+
+[Normal Weapons]
+weap52=10000 0 4 4 false
+weap49=10000 0 4 4 false
+weap48=10000 0 27 16 true
+weap47=10000 0 13 20 true
+weap44=10000 0 27 16 true
+weap43=10000 0 13 16 true
+weap42=10000 477 13 20 true
+weap41=10000 0 27 20 true
+weap38=10000 6 27 20 true
+weap37=10000 5 27 16 true
+weap33=10000 0 27 20 true
+weap32=10000 0 13 16 true
+weap31=10000 0 4 4 true
+weap25=10000 11 27 20 true
+weap24=10000 0 27 20 true
+weap23=10000 0 27 20 true
+weap14=10000 0 4 4 true
+weap10=10000 5 27 16 true
+weap08=10000 5 27 16 true
+weap07=10000 0 27 20 true
+weap03=10000 5 27 16 true
+weap02=10000 0 4 4 true
+weap01=10000 0 4 4 true
+
+[TCE Weapons]
+weap51=10000 0 4 4 false
+weap50=10000 0 4 4 false
+weap49=10000 0 4 4 false
+weap48=10000 0 4 4 false
+weap47=10000 0 4 4 false
+weap46=10000 0 4 4 false
+weap45=10000 0 4 4 false
+weap44=10000 0 4 4 false
+weap43=10000 0 4 4 false
+weap42=10000 0 4 4 false
+weap41=10000 0 4 4 false
+weap40=10000 0 4 4 false
+weap39=10000 0 4 4 false
+weap33=10000 0 4 4 false
+weap25=10000 0 4 4 false
+weap24=10000 0 4 4 false
+weap23=10000 0 4 4 false
+weap13=10000 0 4 4 false
+weap10=10000 0 4 4 false
+weap08=10000 0 4 4 false
+weap06=10000 0 4 4 false
+weap05=10000 0 4 4 false
+weap03=10000 0 4 4 false
+weap02=10000 0 4 4 false
+weap01=10000 0 4 4 false
+
+[NQ Weapons]
+weap61=10000 0 4 4 false
+weap57=10000 0 4 4 false
+weap55=10000 0 4 4 false
+weap54=10000 0 4 4 false
+weap53=10000 0 4 4 false
+weap52=10000 0 4 4 false
+weap51=10000 0 4 4 false
+weap50=10000 0 4 4 false
+weap49=10000 0 4 4 false
+weap48=10000 0 4 4 false
+weap47=10000 0 4 4 false
+weap46=10000 0 4 4 false
+weap45=10000 0 4 4 false
+weap42=10000 0 4 4 false
+weap41=10000 0 4 4 false
+weap40=10000 0 4 4 false
+weap39=10000 0 4 4 false
+weap36=10000 0 4 4 false
+weap35=10000 0 4 4 false
+weap32=10000 0 4 4 false
+weap31=10000 0 4 4 false
+weap30=10000 0 4 4 false
+weap24=10000 0 4 4 false
+weap23=10000 0 4 4 false
+weap22=10000 0 4 4 false
+weap14=10000 0 4 4 false
+weap10=10000 0 4 4 false
+weap08=10000 0 4 4 false
+weap07=10000 0 4 4 false
+weap06=10000 0 4 4 false
+weap03=10000 0 4 4 false
+weap02=10000 0 4 4 false
+weap01=10000 0 4 4 false
+
+[GUI Settings]
+cam5=9 9 407 375 200.000000 90.000000 90.000000 false
+cam4=9 9 407 375 200.000000 90.000000 90.000000 false
+cam3=9 9 407 375 200.000000 90.000000 90.000000 false
+cam2=9 9 407 375 200.000000 90.000000 90.000000 false
+cam1=9 9 407 375 200.000000 90.000000 90.000000 false
+cam0=9 9 407 375 200.000000 90.000000 90.000000 true
+Clients=12 11 1565 1077
+Aimbot=5 115 496 802
+Grenade Bot=630 82 372 687
+Human Aim=1083 132 496 811
+Weapon Config=574 826 372 226
+Corrections=5 115 621 435
+Predictions=22 552 621 488
+Hitbox=858 154 621 515
+Visuals=5 115 372 685
+Hitbox Display=379 115 372 339
+ESP=759 115 372 971
+Camera Settings=1208 115 372 343
+Chams=172 385 745 458
+Custom Models=5 115 372 275
+Crosshair=997 199 496 217
+Colors=1 36 1565 403
+Misc=5 115 372 497
+Sound=385 253 372 279
+Name Stealer=975 704 372 304
+Spam=785 333 372 275
+GUI Style=1099 443 248 148
+navbar=12 12 1565 59
+Status=0 960 298 137
+Weapon=0 826 298 137
+Spectators=1039 55 248 366
+Respawn=1196 0 94 57
+Radar=1289 0 298 275
+Cameras=1 1 12 11
+Banner=0 0 684 73
+scrheight=1100
+scrwidth=1590
+style=nixcoders
+
+[Gentity Settings]
+gentity9=true true false true 3000
+gentity8=true true false true 3000
+gentity7=true true false true 3000
+gentity6=true true false true 3000
+gentity5=true true false true 3000
+gentity4=true true false true 3000
+gentity3=true true false true 3000
+gentity2=true true false true 3000
+gentity1=true true false true 3000
+gentity0=true true false true 3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Spam]
+multikillspamfmt41=[6][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Holyshit Leak
+multikillspamfmt40=[5][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Monster Leak
+multikillspamfmt39=[4][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Ultra Leak
+multikillspamfmt38=[3][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Multi Leak
+multikillspamfmt37=[7]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<MonsterLeak>Double Leak
+multikillspamfmt36=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- UltraLeak
+multikillspamfmt35=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- GodLeak
+multikillspamfmt34=[4]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- WickedLeak
+multikillspamfmt33=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- MultiLeak
+multikillspamfmt32=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- TrippleLeak
+multikillspamfmt31=[2]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- DoubleLeak
+multikillspamfmt30=[6][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Holyshit Leak
+multikillspamfmt29=[5][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Monster Leak
+multikillspamfmt28=[4][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Ultra Leak
+multikillspamfmt27=[3][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Multi Leak
+multikillspamfmt26=[7]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<MonsterLeak>Double Leak
+multikillspamfmt25=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- UltraLeak
+multikillspamfmt24=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- GodLeak
+multikillspamfmt23=[4]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- WickedLeak
+multikillspamfmt22=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- MultiLeak
+multikillspamfmt21=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- TrippleLeak
+multikillspamfmt20=[2]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- DoubleLeak
+multikillspamfmt19=[6][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Holyshit Leak
+multikillspamfmt18=[5][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Monster Leak
+multikillspamfmt17=[4][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Ultra Leak
+multikillspamfmt16=[3][n] ^7was leaked! (active leaks: ^1[q]^7) (total leaks: ^1[k]^7) ^1-->Multi Leak
+multikillspamfmt15=[7]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<MonsterLeak>Double Leak
+multikillspamfmt14=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- UltraLeak
+multikillspamfmt13=[6]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- GodLeak
+multikillspamfmt12=[4]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- WickedLeak
+multikillspamfmt11=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- MultiLeak
+multikillspamfmt10=[3]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- TrippleLeak
+multikillspamfmt9=[2]^2[n] ^7was leaked! (Total leaks: ^1[k]^7)^1<-- DoubleLeak
+killspamfmt39=[n] le fu
+killspamfmt38=[n] fu asshole
+selfkillspamfmt2=^1K^3illed myself^1!
+selfkillspamfmt1=^1C^3ya later^1, ^3its time to kill myself^1!
+selfkillspamfmt0=^1S^3uicide, baby^1!
+deathspamfmt2=^1W^7hy i always get killed
+deathspamfmt1=^1W^7AHAT ^1DA ^7HACK!
+deathspamfmt0=^8Your gone be my next,^1 victem
+suicidespamfmt2=^1W^3as that really ^1onlyest ^3solution for your problems^1?
+suicidespamfmt1=^3Afraid of my gun, ^1wussy?
+suicidespamfmt0=^3Suicide is ^1NOT ^3the answer^1!
+multikillspamfmt8=[10]^2:::^7AMAZINGKILL!^2:::
+multikillspamfmt7=[7]^3::^7MONSTORKILL^3::
+multikillspamfmt6=[6]^2::^7HOLY-SHIT!^2::
+multikillspamfmt5=[5]^2::^7UNLIMITEDKILL!^2::
+multikillspamfmt4=[5]^2::^7WICKEDSICK^2::
+multikillspamfmt3=[4]^2::^7MULTIKILL!^2::
+multikillspamfmt2=[4]^2::^7UNBALIVBOLEKILL^2::
+multikillspamfmt1=[3]^2::^7TRIPALKILL!^2::
+multikillspamfmt0=[2]^2::^7DOUBLEKILL!^2::
+killspamfmt37=^1[n] ^7i made your wish! ^7(spree:^1[q]^7)
+killspamfmt36=^1[n]^7,you bastard ^7(spree:^1[q]^7)!
+killspamfmt35=^1[n] ^7asshole! ^7(spree:^1[q]^7)
+killspamfmt34=^1[n] ^7can't touch me ass! ^7(spree:^1[q]^7)
+killspamfmt33=^1[n] ^7your so not in my level! ^7(spree:^1[q]^7)
+killspamfmt32=^1[n] ^7chises,get a life! ^7(spree:^1[q]^7)
+killspamfmt31=^1[n] ^7your so lame! ^7(spree:^1[q]^7)
+killspamfmt30=^1[n] ^7chill you have now tons of time to think! ^7(spree:^1[q]^7)
+killspamfmt29=^1[n] ^7get a break man! ^7(spree:^1[q]^7)
+killspamfmt28=^1[n] ^7 you suck! ^7(spree:^1[q]^7)
+killspamfmt27=^1woops,^7worng guy.^7(spree:^1[q]^7)
+killspamfmt26=^1[n]^7 please,dont make me kill you ^1A^7gein! ^7(spree:^1[q]^7)
+killspamfmt25=^1[n]^7,^7i never liked you! ^7(spree:^1[q]^7)
+killspamfmt24=^1[n]^7,^7hell is waiting for you! ^7(spree:^1[q]^7)
+killspamfmt23=^1[n]^7,^7never play jokes around a gun!^7(spree:^1[q]^7)
+killspamfmt22=^1[n]^7,^7hello,is there an body home! ^7(spree:^1[q]^7)
+killspamfmt21=^1[n]^7,^7you+my gun=hell! ^7(spree:^1[q]^7)
+killspamfmt20=^1[n]^7,^7hi,say hello to the devil from me! ^7(spree:^1[q]^7)
+killspamfmt19=^1[n]^7,^7shit dont lie! ^7(spree:^1[q]^7)
+killspamfmt18=^1[n]^7,^7never mess with me! ^7(spree:^1[q]^7)
+killspamfmt17=^1[n]^7,^7shit you asshole! ^7(spree:^1[q]^7)
+killspamfmt16=^1[n]^7,^7ydo you want to get borned! ^7(spree:^1[q]^7)
+killspamfmt15=^1[n]^7,^7seems like your life are down now! ^7(spree:^1[q]^7)
+killspamfmt14=^1[n]^7,^7are you smalling some thing its a dead guy!^7(spree:^1[q]^7)
+killspamfmt13=^1[n]^7,^7was fragged! ^7(spree:^1[q]^7)
+killspamfmt12=^1[n]^7,^7its time to go slipy,zZZ.. ^7(spree:^1[q]^7)
+killspamfmt11=^1[n]^7,^7you faggot! ^7(spree:^1[q]^7)
+killspamfmt10=^1[n]^7,^7you jsut lsot your head! ^7(spree:^1[q]^7)
+killspamfmt9=^1[n]^7,^7eat shit from the ground ass! ^7(spree:^1[q]^7)
+killspamfmt8=^1[n]^7,^7its time to die bitch! ^7(spree:^1[q]^7)
+killspamfmt7=^1[n]^7,^7your really suck!^7(spree:^1[q]^7)
+killspamfmt6=^1[n]^7,^7you jsut took me 3 bullets ^7(spree:^1[q]^7)
+killspamfmt5=^1[n]^7,^7your one step being in hell! ^7(spree:^1[q]^7)
+killspamfmt4=^1[n]^7,^7i dont like you sniffing around.. ^7(spree:^1[q]^7)
+killspamfmt3=^1[n]^7,^7needs some medic!  ^7(spree:^1[q]^7)
+killspamfmt2=^1[n]^7,^7never say die! ^7(spree:^1[q]^7)
+killspamfmt1=^3taxi ^7 for ^1[n] ^7(spree:^1[q]^7)
+killspamfmt0=^2[n] ^7was leaked! (Total leaks: ^1[k]^7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

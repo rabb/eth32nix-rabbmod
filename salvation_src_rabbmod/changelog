@@ -1,0 +1,258 @@
+SALVATION 1.0:
+
+Last updated: 08/19/2009 - 12:00 am.
+
+*Credits for this release:
+ -Alexplay
+ -ELITE_x
+ -rabbit
+ -LeAkeR
+
+-Fixed Gentity ESP colors.
+-Fixed a bug with atkValidate + aim on fire where it'd keep shooting even if the target was dead/not visible.
+-Added timenudge & snaps unlocker (they can now be used in any server with any value, even on ETPro - Can be turned on/off)
+-Improved random etpro guid, jaymac and unban command (They're randomly generated on the fly now instead of picked from the files)
+-Improved chams menu and customization (2 Custom shaders (normal and outline) for Players, weapons and items, each with custom color and toggleable wallhack)
+-Changed etproOs cvar to spoofOs and added it to the menu (Now true = win32 and false = linux)
+-Fixed aimpoints size for contour trace and number of head and body points are now auto (Aimbot should be a bit better against hiders)
+-Fixed muzzlePoint for other mods (Aim should be a LOT better now at different heights in non etpub servers)
+-Improved sequential spree sounds (Spree sounds will keep playing if current spree is > 35 and each 5 kills)
+-Fixed Aimbot.Respawn() not being called in jaymod.
+-Raised frequency from 127 to 230 in CSyscall.S_StartLocalSound (Louder hitsounds and spreesounds)
+-Improved ping based prediction for targets (BOTs are not selected through the ClientWindow anymore, the predict adjusts auto as always)
+-Anti team kill is not based on the ClientWindow anymore.
+-Replaced wickedsick.wav sound with a better quality one.
+-Improved auto Z vecs.
+-Fixed a bug with distance based size for Class ESP
+-Added auto file complaint when someone TKs you (Can be turned on/off)
+-Updated client dll code with the latest etpub.
+-Added bounding box ESP (Custom border size and opacity, color is the same as Class ESP)
+-Improved aimpoints visualization and they're PBSS proof now. 
+-More sophisticated hitbox tracing with different aimpoints for head and body + 2 new traces (Static and X Trace, last one is rsHook based and very CPU hungry)
+-Moved Color Picker to a new section, increased its size and added custom colors for:
+ -Missiles ESP (Grenades, etc.)
+ -GUI Texts (Opacity customizable through cvars)
+ -HUD Bars (Health, stamina, charge, overheat and reload bars. Opacity customizable through cvars)
+-Having enabled autovote won't cancel your own votes anymore.
+-Chams can now be customized separately for Team and Enemy players.
+-Reworked and added new chams (Chams with predefined color names, for example: "Quad Red", have higher image quality, but its color can't be customized) 
+-Added custom models (Reaper head, hitler head and hitler body)
+-Blinking icon color for arty.
+-Added randomized aim for Human mode (Customizable randomness and frequency)
+-Added preliminary offsets for NQ 1.2.0 (Is NOT meant to be used since it crashes)
+-New main screen background image.
+-New Class and Weapon icon images (You can choose between old and new icons, requires a vid_restart)
+-Improved hit indicator, 3 different styles:
+ -Show only damage taken
+ -Show only arrow
+ -Show damage taken and arrow
+-Customizable cvar prefix (Example: eth_set cvarprefix "sal_set". Requires the game to be restarted)
+-Fixed a bug where having enabled riflebot wouldn't enable it for real unless you enabled grenade bot.
+-The hack will now run on 2.60b if compiled with GCC >= 4.4.0. The only drawback is that you need to put your pk3 file in ~/.etwolf/etmain from now on, it'll work exactly the same way.
+
+*Code cleanup:
+-Cleaned up unused code in Sounds.
+-Cleaned up unused variables in types.h.
+-Turned off all debug stuff.
+-Moved refEntity and spree count vars to cgame_t struct.
+-Removed some unused code in dll.
+-Removed useless code in weapdefs.h.
+-Moved CVisuals.cpp code to CDrawTools.cpp.
+-Removed unused axes code in drawbodybox
+-Changed ang val in CheckFov
+-Moved LockSensitivity to the right location in humanaim.
+
+OVERDOSE BETA 7 (FINAL):
+
+-Improved ping based prediction (BOTs are now selected correctly for both teams and pings are auto refreshed each 3 seconds).
+-Better sound engine: ETH based (Now ALL spree sounds work correctly and are played in an apropriate way).
+-Current health will be displayed correctly for all mods in the Banner.
+-New customss, eth32 logo and main menu background.
+-Code. pk3 and GUI cleanup and fixes.
+-Updated descriptions and values for all the cvars.
+-Fixed a bug in settings.ini file (Main Settings were saved in the wrong order compared to settings.h file).
+-Fixed a bug where the players were shown through the walls even with hackvisuals turned off (No more dirty PBSS).
+-Improved custom crosshairs (They're drawn as a picture now, so you can create and/or replace one you don't like in the pk3 file).
+-Low Ammo Warning will no longer appear in freecam mode (spectator).
+-Added Icon ESP for health, ammo packs and dropped weapons (Customizable size, color and opacity).
+-Hit indicator (Show how much damage we are taking).
+-Selectable spree sounds style (random or sequential).
+-New aimsort: Attacker.
+-Added an option to turn off smoke particles when hitting players (Note: this will also remove smoke from Airstrike cans - NOT PBSS proof,)
+-Now you can show your own ping in the banner with [P].
+-Readded option to show original ET hud.
+-Fixed some visuals showing while the limbo menu was open.
+-Fixed a bug regarding head hitbox size (its real size wasn't being traced properly, now the bot is more consistent in long range).
+-Fixed a bug with preaim and preshoot.
+-Fixed Contour trace.
+-Added an option to show aimpoints (So you know where the aimpoints are and so set up your aimbot/hitboxes perfectly).
+-Removed targetingUs code (Completely broken, it never worked).
+-Added ESP for smoke marker (airstrike).
+-Fixed a bug where it would only let you manually shoot 1 bullet at a time with autofire enabled.
+-Fixed a bug in weapon stats request.
+-Fixed a bug with speclist not refreshing apropiately.
+-Fixed a bug where the chat would get cut off during Intermission.
+-Disabling HQ sounds will disable them for real now.
+
+OVERDOSE BETA 6:
+
+-Removed random cl_guid (useless)->Alexplay
+-Aimbot won't aim with knife anymore->Alexplay
+-Cleaned up and Improved autocorrections stuff (More organized, removed redundant and useless code, etc)->Alexplay
+-Readded customizable Run and crawl vecs (It's better like that)->Alexplay & elite
+-No more X,Y far and close vecs (Useless, just an unique value for each one)->Alexplay
+-Improved Auto Z vecs for all stances (low, med and far distance automatically calculated, also manual for those who like their own settings)->elite & Alexplay
+-Readded auto weapon delay distance based (This one is not bugged, can be turned on/off)->Alexplay
+-Code cleanup->Alexplay
+-New GUIs and GUI reorganization->Alexplay
+-Updated SConstruct files for client and scons_utils.py (No more deprecated modules)->Alexplay
+-Trigger aim readded properly->Alexplay
+-Added anti teamkill (Good for etpro rage sessions, can be turned on/off)->Alexplay
+-Updated default values (Good default values so you can own with the hack right away)->Alexplay
+-Fixed chams (weapon outline colors are now customizable independently for each team instead of an unique color)->Alexplay
+-Fixed Stats parsing (They'll be updated each 2 seconds so the banner updates in realtime without having to press alt (+scores))->Alexplay
+-Improved wallhack visuals (Outline wallhack, 3D or 2D outline selectable from the menu, and other bugfixes)->Alexplay & elite
+-Added class and weapon icon ESP (Customizable size, color and opacity)->Alexplay & elite
+-Selectable target prediction type:->Alexplay & elite
+	Off: Normal target prediction, only 1 value is used for all players.
+	Ping: All BOTs ( 0 ping ) will be auto selected as ENEMY in the Client Window and the target predict will adjust accordingly. This one is a lot better than previous ping predict since it doesn't cause lag.
+	Manual: You select in the Client Window which players are BOTs so the target predict adjust accordingly.
+-Improved custom crosshairs (Added customizable color and opacity)->Alexplay
+-Added PB proof exact namestealer (Copy other players' name exactly on PB servers without getting kicked, can be turned on/off)->Alexplay
+-New selfpredict option (ping based)->elite & Alexplay
+-Removed screenshake when you "break" your legs->Alexplay
+-Fixed an ocassional glitch with speedshooting where it won't work properly (Just added a small delay)->Alexplay
+-Added class icons for radar->Alexplay
+-Fixed hitsounds (They're now selected through a dropbox, also a duplicated hitsound was replaced with the correct one)->Alexplay
+
+OVERDOSE BETA 5:
+
+-Improved speed autoshooting->Alexplay
+-Readded threat, accuracy, and K/D ratio aimsorts->Unseen
+-Moved grenade bot menu to "Misc" section (need room for humanized menu in "Aimbot" section)->Unseen
+-Removed weapon auto delay (Somewhat buggy and not really needed)-> Unseen
+-Reworked outline chams (less thick)-> Unseen
+-2 new chams (Test & CrispWave)-> star_ & Unseen
+-Added auto target prediction based on ping->Alexplay
+-Improved auto trace type (Now you're not forced to use only one, you can freely select anyone and it'll adjust automatically based on distance)-> Alexplay
+-Improved target prediction (now you can select different types of target prediction: Basic [basic prediction from rc4], Snapshot [Snapshot prediction from ETH], Multi [Target prediction from beta 4], Speed/Distance [New one, names says it])->Alexplay & Unseen
+-Code cleanup->Alexplay
+-pk3 file cleanup->Alexplay
+-Minor GUI fixes-> Unseen & Alexplay
+-New GUI (from sETH32nix)->star_
+-Added humanaim & related stuff-> Unseen & star_
+-Added auto Preaim and Preshoot time based on our ping (can be turned on and off)->Alexplay
+-Aimbot won't aim while we are reloading->Alexplay
+-Aimbot will aim at body if we're using the MG42->Alexplay
+-Added autovote (It will "vote no" when someone votes to kick you, can be turned on/off)->Alexplay
+-Added anti inactivity kick->Alexplay
+-Updated SConstruct files (Compiler optimizations and no more warnings about deprecated functions)->Alexplay
+-Added warning messages like in ETH (RELOADING, LOW HEALTH. can be turned on and off)->Alexplay
+-Updated default values->Alexplay & Unseen
+
+OVERDOSE BETA 4:
+
+-Improved target prediction (Thanks to elite)
+-Added snap delay (Thanks to elite)
+-Fixed custom aim sort "Distance & HP" (It had some redundant and useless code)
+-Added auto vecs correction for prone too (X, Y, Z. Close and Far)
+-Improved autocrouch code (faster and less buggy, thanks to elite)
+-Added Speed AutoShooting for all weapons (You must have enabled autofire, and autofire on each weapon for it to work properly)
+-Added auto dynamic hitbox based on our ping.
+-Fixed a bug where the bot kept switching players (autofire enabled) when speccing someone.
+-Cleaned up some useless stuff in the pk3 file.
+-Removed selfprediction "test" (useless with "L337" selfprediction which is more accurate)
+-Added anti speclock (from ETH source, eth_set specunlock on / off)
+-Fixed a crash after every stopwatch round on ETPro (Probably caused by CGNetwork and CNetwork)
+-Fixed the stats bug (Now it shows the correct stats when you press "alt")
+-Removed "request stats" useless since the stats bug is fixed now.
+-Removed some useless code left over after the removal of portal, IRC and chat window.
+-Respawn timer now only shows the enemy's time and it's a bit bigger.
+-Fixed all the bugs from Overdose Slim releases (Grenade and Rnade aimbot, cameras and killspam)
+-Vecs' default values are not 0 anymore. (They're adjusted based on the ETPro ones, which are pretty accurate, so you can use the hack right away)
+-Changed pk3 and libeth32 names to: libeth32nix.so and eth32nix.pk3
+-Three new commands: eth_randguid (random etpro guid) and eth_randmac (random jaymac) and eth_randclguid (random cl_guid) all read from a .txt file.
+-Improved eth_randname command (Is not buffered anymore, so we can set it before connecting to a server :))
+-Improved eth_unban command (Now it'll also pick up a random etpro guid, jaymac and name from the .txt files, and then /reconnect)
+-Removed command's buffering, instead we should use: orig_syscall(UI_CMD_EXECUTETEXT, EXEC_APPEND, buf) (It's easier and doesn't depend if we're connected to a server)
+-Fixed the annoying chat bug in 2.55 (Actually it wasn't only a chat bug, but console commands in general)
+-Changed GUI customization key to F11 (old one: F8)
+-Adapted hitbox setting window for the new auto vecs (more compact and organized)
+-New colorpicker (thanks to star_)
+-2 New GUIs (One from WNX64)
+-New logo (Thanks to star_)
+-Some other GUI fixes.
+-Added all chams from ///PALE's release: WNX64 (thanks to ///PALE and unseenthreat)
+-Custom crosshairs (Customizable size and thickness)
+-Remove foliage completely (Thanks to ///PALE for the code)
+-Added customizable outchams and fixed previous ones (thanks to unseenthreat)
+-Added outline chams for Weapons (thanks to unseenthreat)
+-Included "customss.ppm" for a nice PB ScreenShot ;)
+
+OVERDOSE SLIM BETA 3:
+
+-Removed chat window and console commands/messages routing to GUI (The hack no longer will handle these things)
+-Removed CP speed, scale, etc. (Not really needed)
+-Autopoints enabled by default and changed to BOOL instead of 3 options.
+-Added Autopoints correction based on distance (It will generate less aimpoints in long distances to improve performance)
+-Added auto Trace Type based on distance (Will change to CENTER if enemy is far away to maximize performance, and Capsule Surface which is more accurate, in close distances)
+-Merge all autocorrections (Less confusing and easier to set up/add more auto correction stuff)
+-Code Cleanup
+-Readded contour trace and multibounce
+-Selfprediction l33t (more accurate than selfpredict "test", also adjustable)
+-Added some nice predefined values
+
+
+OVERDOSE SLIM BETA 3 (Experimental):
+
+-Same changes as Above
+-Removed kill spams
+-Removed sounds
+-Removed grenade and riflenade aimbot (Therefore its cameras also got removed)
+-Removed Panzer, mirror and drop (cameras)
+
+OVERDOSE SLIM BETA 2:
+
+-Added a 4th section (Vecs) and placed there all the vecs and hitbox sliders.
+-Updated the hitbox and vecs auto correction code (X, Y, Z, standing, crouching, close and far. Thanks rabbit and ELITE)
+-Update some cvar descriptions and default values.
+-Modified eth_hackspam and merged it with eth_cheatspam.
+-Modified hack name in loading screen.
+-Added unseenthreat's improved code for thirdperson (now cg_thirdpersonangle and cg_thirdpersonrange should work good when vw_thirdperson is enabled)
+-Update default windows location.
+-Removed some unused Winamp stuff.
+-Code cleanup.
+-Modified ETH32 logo color.
+
+OVERDOSE SLIM BETA 1:
+
+-Removed portal (No more auth file, just a pure hack, now it can be used offline too)
+-Removed IRC (Kinda pointless, why to chat when you're too busy popping everyone?)	
+-Removed Ballistic Window (Less bloat, no one cares about the grenade speed, etc. anyway)
+-Removed 3D weapon render code (More space for the windows, specially with the latest releases with a lot of stuff)
+-Removed predefined hitboxes (Useless with ELITE's new auto correction for almost everything :))
+-Removed useless target sorts (K/D ratio, threat, accuracy, custom2 and health)
+-Modified target sort (custom 1) Now it's based on Distance and Health
+-Removed useless selfpredicts (Useless since the new test predict)
+-Removed multibounce (Usefull in rare cases, anyway you don't speed too much time with grenades, etc)
+-Removed human aim stuff
+-Removed aimprotect
+-Cleaned up pk3 file (Removed some scripts and custom weapon sounds)
+-Fixed pk3 name in settings.h
+-Removed custom weapon sounds
+-Removed panzer suicide (Completely useless, user should decide if he wants to killout or not)
+-Removed some useless binds in CEngine.cpp (Just some random vsays that were there)
+-Added ELITE's hitbox correction code
+-Added kobject's NVIDIA fix (The hack should work now with the latest nvidia drivers)
+-Added unban command (eth_unban, Will delete your current etkey, renew it, change your name to ETPlayer and reconnect)
+-Redesigned GUI (Only 3 sections: Aimbot, visuals and Misc)
+-Minor GUI fixes
+-Added my own GUI
+-Resized stats (health and weapon) and chat windows.
+-Moved auto vecZ sliders to Custom hitbox window
+-Resized Colorpicker
+-Removed test, testy, testyy, testx, testxx etc. (Useless code)
+-Removed old unused prediction code (predtargi)
+-Removed unused Rail trail code for body
+-Several code cleanup
+

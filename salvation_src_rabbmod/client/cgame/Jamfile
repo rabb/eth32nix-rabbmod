@@ -1,0 +1,17 @@
+# The client library.
+
+project cgame
+	: requirements <define>CGAMEDLL
+	: requirements <include>../game
+	: requirements <include>../ui
+	;
+
+SOURCES = [ glob ../game/bg_*.c ]
+		  [ glob cg_*.c ]
+		  ../game/q_math.c
+		  ../game/q_shared.c
+		  ../ui/ui_shared.c
+		;
+
+lib cgame.mp.i386 : $(SOURCES) : <toolset>gcc:<cflags>-w ;
+
